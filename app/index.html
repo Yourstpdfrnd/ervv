@@ -2,51 +2,438 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="theme-color" content="#111111">
-  <title>ERV</title>
-  <link rel="stylesheet" href="css/main.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#111111">
+	<title>ERV</title>
+	<link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
 
 
-  <div class="site-container">
-    <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <a href="#" class="header__logo">
-            <img src="img/logo.svg" alt="">
-          </a>
-          <button class="burger btn-reset header__burger">
-            <span class="burger__line"></span>
-          </button>
-          <nav class="header__menu">
-            <ul class="header__menu-list">
-              <li class="header__menu-link"><a href="#">Купить полис</a></li>
-              <li class="header__menu-link"><a href="#">Продукты</a></li>
-              <li class="header__menu-link"><a href="#">О компании</a></li>
-              <li class="header__menu-link"><a href="#">Страховой случай</a></li>
-              <li class="header__menu-link"><a href="#">Партнёрам</a></li>
-              <li class="header__menu-link"><a href="#">Контакты</a></li>
-            </ul>
-          </nav>
-          <div class="header__btn">Вход для агентов</div>
-        </div>
-      </div>
-    </header>
-
-
-
-
+<div class="site-container">
+		<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="#" class="header__logo">
+        <img src="img/logo.svg" alt="">
+      </a>
+      <button class="burger btn-reset header__burger">
+        <span class="burger__line"></span>
+      </button>
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-link"><a href="#">Купить полис</a></li>
+          <li class="header__menu-link"><a href="#">Продукты</a></li>
+          <li class="header__menu-link"><a href="#">О компании</a></li>
+          <li class="header__menu-link"><a href="#">Страховой случай</a></li>
+          <li class="header__menu-link"><a href="#">Партнёрам</a></li>
+          <li class="header__menu-link"><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__btn">Вход для агентов</div>
+    </div>
   </div>
+</header>
 
+		<section class="main">
+    <div class="container main-container">
+        <div class="main__info">
+            <h1 class="main__info-title">Страховка для путешествий в Египет</h1>
+            <h3 class="main__info-subtitle">Рассчитать и оформить туристическую страховку</h3>
+            <div class="main__info-row">
+                <div class="main__info-item">
+                    <div class="main__info-form form">
+                        <form>
+                            <div class="form__search">
+                                <label for=""> Страна
+                                    <input class="form__search-input" type="text" placeholder="Египет">
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <label class="main__info-form__date" for=""> Туда
+                                    <input type="date">
+                                </label>
+                                <label class="main__info-form__date" for=""> Обратно
+                                    <input type="date">
+                                </label>
+                            </div>
+                        </form>
+                        <div class="main__info-line">
+                            <div class="main__info-price">от <span>1500</span> ₽</div>
 
+                            <div class="main__info-btn btn">Купить онлайн</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__info-item banner">
+                    <div class="main__info-content">
+                        <p>Валюта</p>
+                        <span>Египетский фунт (EGP)≈ 5 ₽</span>
+                        <p>Виза</p>
+                        <span>Не нужна</span>
+                        <p>Красота пирамид</p>
+                        <span>
+                        <img src="img/ag.png" alt="img">
+                        ≈ 79 анджелиноджоулей</span>
+                    </div>
+                </div>
+                <div class="main__info-banner">
+                    <img src="img/banner.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="insurance">
+    <div class="container">
+        <h3 class="insurance__title">Все ок, вы застрахованы.</h3>
+        <div class="insurance__inner">
+            <div class="insurance__item">
+                <div class="insurance__item-img">
+                    <img src="img/ins-1.png" alt="img">
+                </div>
+                <div class="insurance__item-content">
+                    <h4 class="insurance__item-title">Амбулаторное и стационарное лечение</h4>
+                    <p class="insurance__item-text"> Возместим расходы на посещение врача или лечение в стационаре</p>
+                </div>
+            </div>
+            <div class="insurance__item">
+                <div class="insurance__item-img">
+                    <img src="img/ins-2.png" alt="img">
+                </div>
+                <div class="insurance__item-content">
+                    <h4 class="insurance__item-title">Хронические заболевания</h4>
+                    <p class="insurance__item-text"> Экстренная помощь при обострении хронических заболеваний, аллергии
+                        и солнечных ожогах.</p>
+                </div>
+            </div>
+            <div class="insurance__item">
+                <div class="insurance__item-img">
+                    <img src="img/ins-3.png" alt="img">
+                </div>
+                <div class="insurance__item-content">
+                    <h4 class="insurance__item-title">Опасные инфекции</h4>
+                    <p class="insurance__item-text"> Оплатим лечение при коронавирусной инфекции, а также проживание в
+                        случае задержки в поездке из-за каранитнного заболевания</p>
+                </div>
+            </div>
+            <div class="insurance__item">
+                <div class="insurance__item-img">
+                    <img src="img/ins-4.png" alt="img">
+                </div>
+                <div class="insurance__item-content">
+                    <h4 class="insurance__item-title">Лекарства по рецепту</h4>
+                    <p class="insurance__item-text"> Если врач пропишет лекарства, то мы возместим расходы на их
+                        приобретение</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="information">
+    <div class="container">
+        <div class="information__inner">
+            <div class="information__item">
+                <h3 class="information__item-title">Сосредоточьтесь на путешествии</h3>
+                <p class="information__item-text">Все программы ERV устроены так, чтобы вы могли спокойно
+                    путешествовать не думая о страховке. Чтобы вы были уверены, мы предусмотрели основные риски:</p>
+                <ul class="information__item-list">
+                    <li class="information__item-link">амбулаторное и стационарное лечение;</li>
+                    <li class="information__item-link">экстренная стоматология;</li>
+                    <li class="information__item-link">медико-транспортные расходы;</li>
+                    <li class="information__item-link">поисково спасательные мероприятия (включая спасательный вертолет)</li>
+                </ul>
+                <span>… и многое другое.</span>
+                <p class="information__item-text">При оформлении полиса покажем весь перечень покрываемых рисков
+                    и вы легко выберите продходящую программу.</p>
+            </div>
+            <div class="information__image">
+                <img src="img/info-1.png" alt="info">
+            </div>
+        </div>
+        <div class="information__inner">
+            <div class="information__image">
+                <img src="img/info-2.png" alt="info">
+            </div>
+            <div class="information__item">
+                <h3 class="information__item-title">Активный отдых</h3>
+                <p class="information__item-text">Необязательно все время лежать на пляже. Поэтому во всех
+                    программах ERV, по умолчанию, без переплат и оговорок, покрывается активный отдых:</p>
+                <ul class="information__item-list">
+                    <li class="information__item-link">активности на море и/или бассейне, пляжные развлечения,
+                        развлечения в отелях, парках, аттракционы;</li>
+                    <li class="information__item-link">пешие прогулки, катание на беговых лыжах, экскурсии, походы,
+                        в т. ч. с участием животных;</li>
+                    <li class="information__item-link">передвижение на роликовых коньках, велосипедах, мотобайках,
+                        автомобилях, самокатах, скутерах и аналогичных видах транспорта с учетом требований
+                        безопасности;</li>
+                    <li class="information__item-link">передвижения в качестве пассажира, экскурсанта на самолетах,
+                        яхтах, катерах, лодках, автомобилях и пр.;</li>
+                    <li class="information__item-link">сплавы по рекам (экскурсионно-туристический рафтинг),
+                        рыбалка.</li>
+                </ul>
+                <span>И еще множество активностей и развлечений. Не ограничивайте себя!</span>
+            </div>
+        </div>
+        <div class="information__inner">
+            <div class="information__item">
+                <h3 class="information__item-title">Спортивный и экстремальный отдых</h3>
+                <p class="information__item-text">Любите горнолыжные склоны? Или исследования морских глубин? Без
+                    проблем, ведь у ERV есть страховки и для такого отдыха. Приобретает я опционально.</p>
+                <p class="information__item-text">Прыжки с парашютом, полеты на дельтаплане или параплане,
+                    альпинизм, участие в соревнованиях, кстати, тоже можно застраховать.</p>
+            </div>
+            <div class="information__image">
+                <img src="img/info-3.png" alt="info">
+            </div>
+        </div>
+        <div class="information__inner">
+            <div class="information__image">
+                <img src="img/info-4.png" alt="info">
+            </div>
+            <div class="information__item">
+                <h3 class="information__item-title">COVID-19 уже в страховке</h3>
+                <p class="information__item-text">Заболевание коронавирусом покрываем в любой программе ERV. Оплатим
+                    консультации врачей, лечение в больнице, анализы, а также медико-транспортные расходы. И все
+                    это — в пределах страховой суммы.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-  <script src="js/main.js"></script>
+<section class="information info">
+    <div class="container">
+        <div class="information__inner">
+            <div class="information__item">
+                <h3 class="information__item-title">Это далеко не все!</h3>
+                <p class="information__item-text">Никто не знает, что может случиться в путешествии. Поэтому даже в
+                    стандартной страховке ERV вы будете застрахованы на случай:</p>
+                <ul class="information__item-list">
+                    <li class="information__item-link">хронических заболеваний (без скрытых лимитов);</li>
+                    <li class="information__item-link">осложнения беременности;</li>
+                    <li class="information__item-link">преждевременные роды и помощь новорожденному
+                        (в программе OPTIMA);</li>
+                    <li class="information__item-link">медицинская помощь при алкогольном опъянении
+                        (в программе OPTIMA);</li>
+                    <li class="information__item-link">солнечных ожогов и аллергии;</li>
+                    <li class="information__item-link">терактов и стихийных бедствий;</li>
+                    <li class="information__item-link">укусов всего, что бегает, летает, ползает и плавает;</li>
+                    <li class="information__item-link">опасных инфекций, а также тропических лихорадок всех видов.
+                    </li>
+                </ul>
+            </div>
+            <div class="information__image">
+                <img src="img/info-5.png" alt="info">
+            </div>
+        </div>
+        <div class="information__inner">
+            <div class="information__image">
+                <img src="img/info-6.png" alt="info">
+            </div>
+            <div class="information__item">
+                <h3 class="information__item-title">Не только медицина</h3>
+                <p class="information__item-text">Самолеты не всегда вылетают вовремя. Багаж могут задержать.
+                    Паспорт затеряется где-то на просторах заграничного города. Но и на такие случаи у ERV есть
+                    решения.</p>
+                <div class="information__item-subtitle">Во всех программах:</div>
+                <ul class="information__item-list">
+                    <li class="information__item-link">компенсируем задержку регулярного авиарейса более чем
+                        на 3 часа</li>
+                    <li class="information__item-link">возместим расходы при утрате документов</li>
+                </ul>
+                <div class="information__item-subtitle">В программе OPTIMA:</div>
+                <ul class="information__item-list">
+                    <li class="information__item-link">выплатим компенсацию в случае задержки, повреждения или
+                        утраты багажа</li>
+                    <li class="information__item-link">моментальные онлайн-выплаты при задержке ругалярного
+                        авиарейса.</li>
+                    <li class="information__item-link">гражданская ответственность;</li>
+                    <li class="information__item-link">страхование от несчастного случая.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="information__btn btn">Рассчитать стоимость страховки</div>
+    </div>
+</section>
+		<section class="advantages">
+    <div class="container">
+        <h2 class="advantages__title">Почему нужно страховаться в ERV</h2>
+        <div class="advantages__inner">
+            <div class="advantages__item">
+                <div class="advantages__item-image">
+                    <img src="img/advantages-1.png" alt="">
+                </div>
+                <div class="advantages__item-info">
+                    <h4 class="advantages__item-title">Для любого путешествия</h4>
+                    <p class="advantages__item-text">Пляжный отдых, экскурсии, круизы, занятие спортом —
+                        не ограничивайте себя в фантзиях! Просто путешествуйте с нашим полисом, а мы позаботимся обо
+                        всем остальном.
+                    </p>
+                </div>
+            </div>
+            <div class="advantages__item">
+                <div class="advantages__item-image"><img src="img/advantages-2.png" alt=""></div>
+                <div class="advantages__item-info">
+                    <h4 class="advantages__item-title">На море, в горах, в пустыне</h4>
+                    <p class="advantages__item-text">Пляжный отдых, экскурсии, круизы, занятие спортом —
+                        не ограничивайте себя в фантзиях! Просто путешествуйте с нашим полисом, а мы позаботимся обо
+                        всем остальном.
+                    </p>
+                </div>
+            </div>
+            <div class="advantages__item">
+                <div class="advantages__item-image woman"><img src="img/advantages-3.png" alt=""></div>
+                <div class="advantages__item-info">
+                    <h4 class="advantages__item-title">Без возрастных ограничений</h4>
+                    <p class="advantages__item-text">Пляжный отдых, экскурсии, круизы, занятие спортом —
+                        не ограничивайте себя в фантзиях! Просто путешествуйте с нашим полисом, а мы позаботимся обо
+                        всем остальном.
+                    </p>
+                </div>
+            </div>
+            <div class="advantages__item">
+                <div class="advantages__item-image"><img src="img/advantages-4.png" alt=""></div>
+                <div class="advantages__item-info">
+                    <h4 class="advantages__item-title">Страхование, которое...</h4>
+                    <p class="advantages__item-text">Пляжный отдых, экскурсии, круизы, занятие спортом —
+                        не ограничивайте себя в фантзиях! Просто путешествуйте с нашим полисом, а мы позаботимся обо
+                        всем остальном.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="country">
+    <div class="container">
+        <div class="country__title">Кратко о Египте</div>
+        <div class="country__inner">
+            <div class="country__content">
+                <div class="country__content-img">
+                    <img src="img/country.jpg" alt="egypt">
+                </div>
+                <p class="country__content-text">Ну что тут скажешь? Турция –– это пример того, как должен быть
+                    организован пляжный отдых.
+                    Практически идеальный, выстроенный годами и отточенный сервис, отсутствие виз, относительно
+                    быстрый
+                    перелет, теплое море и развлечения для всех возрастов. Иной раз можно даже не покидать
+                    территорию
+                    отеля, потому что там будет... ВСЕ!</p>
+                <p class="country__content-text"> Ну а если пляжный отдых надоел, то универсальный ответ –– Стамбул.
+                    С его старинными улочками,
+                    фантастическим шоппингом на Гранд Базаре, лучшей в мире уличной едой и запахами фирменных
+                    бубликов с
+                    тмином.
+                </p>
+            </div>
+            <div class="country__content-info">
+                <div class="country__content-info__item">
+                    <p>Валюта</p>
+                    <span>Египетский фунт (EGP)
+                        ≈ 5 ₽</span>
+                </div>
+                <div class="country__content-info__item">
+                    <p>Виза</p>
+                    <span>Не нужна</span>
+                </div>
+                <div class="country__content-info__item">
+                    <p>Красота пирамид</p>
+                    <span>
+                        <img src="img/ag-kiwi.png" alt="">
+                        ≈ 79 анджелиноджоулей</span>
+                </div>
+                <div class="country__content-info__item">
+                    <img src="img/bag.png" alt="">
+                    <p>В чемодан</p>
+                    <span>головные уборы, средства от солнца, купальники и плавки</span>
+                </div>
+                <div class="country__content-info__item">
+                    <img src="img/location.png" alt="">
+                    <p>Что посетить?</p>
+                    <span>Каир</span>
+                    <span>???</span>
+                    <span>???</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="request">
+    <div class="container">
+        <div class="request__row">
+            <div class="request__row-item">
+                <img src="img/request-1.png" alt="img">
+                <button class="request__btn">Рассчитать онлайн</button>
+            </div>
+            <div class="request__row-item">
+                <img src="img/request-2.png" alt="img">
+                <p class="request__text">Оплатить картой на сайте</p>
+            </div>
+            <div class="request__row-item">
+                <img src="img/request-3.png" alt="img">
+                <p class="request__text">Пришлем полис на e-mail</p>
+            </div>
+        </div>
+    </div>
+</section>
+		<footer class="footer">
+	<div class="container">
+		<div class="footer__top">
+			<a href="#" class="footer__logo"><img src="img/footer-logo.svg" alt="logo"></a>
+			<div class="footer__item">
+				<h5 class="footer__item-title">ERV</h5>
+				<ul class="footer__item-list">
+					<li class="footer__item-link"><a href="#">Продукты</a></li>
+					<li class="footer__item-link"><a href="#">Купить полис</a></li>
+					<li class="footer__item-link"><a href="#">Партнерам</a></li>
+					<li class="footer__item-link"><a href="#">О компании</a></li>
+					<li class="footer__item-link"><a href="#">Новости</a></li>
+				</ul>
+			</div>
+			<div class="footer__item">
+				<h5 class="footer__item-title">Нужна помощь?</h5>
+				<ul class="footer__item-list">
+					<li class="footer__item-link"><a href="#">Страховой случай</a></li>
+					<li class="footer__item-link"><a href="#">Как обратиться в ERV?</a></li>
+					<li class="footer__item-link"><a href="#">Карта сайта</a></li>					
+				</ul>
+			</div>
+			<div class="footer__item footer__item-info">
+				<h5 class="footer__item-title">Полезная информация</h5>
+				<ul class="footer__item-list">
+					<li class="footer__item-link"><a href="#">Общие правила страхования в редакции от 7 мая 2019 г.</a></li>
+					<li class="footer__item-link"><a href="#">Полисные условия в редакции от 7 мая 2019 г.</a></li>
+					<li class="footer__item-link"><a href="#">Период охлаждения</a></li>
+					<li class="footer__item-link"><a href="#">Информация по страхованию</a></li>
+					<li class="footer__item-link"><a href="#">Базовый стандарт защиты прав получателей финансовых услуг</a></li>
+					<li class="footer__item-link"><a href="#">Политика обработки персональных данных</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer__contact">
+			<div class="footer__contact-info">
+				<div class="footer__contact-license">Лицензия ЦБ РФ СЛ № 4009, СИ № 4009</div>
+				<div class="footer__contact-adress">Москва, 4-й Добрынинский пер., д. 8, офис С14-01</div>
+				<a href="tel:+74956265800" class="footer__contact-tel">+7 (495) 626-58-00</a>
+				<a href="mailto:info@erv.ru" class="footer__contact-mail">info@erv.ru</a>
+				<a href="mailto:erv.ru" class="footer__contact-mail">erv.ru</a>
+			</div>
+		</div>
+		<div class="footer__copyright">© 2011—2020 Акционерное общество «ЕРВ Туристическое Страхование» — купить страховку туристическую</div>
+	</div>
+</footer>
+
+		
+		
+</div>
+
+	
+
+	<script src="js/main.js"></script>
 </body>
 
 </html>
