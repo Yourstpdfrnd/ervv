@@ -1,0 +1,39 @@
+.insurance{
+    padding: 128px 0;
+    background-color: #fff;
+    &__title{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 65px;
+    }
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item{
+        width: 20%;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            border: 1px solid var(--kiwi);
+            width: 64px;
+            bottom: -30px;
+        }
+    }
+    &__item-img{
+       
+        margin-bottom: 32px;
+    }
+    &__item-title{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    &__item-text{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+}
